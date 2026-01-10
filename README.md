@@ -6,10 +6,8 @@ This repository contains the design, documentation, and CAD files for my senior-
 The project focused on designing and building an unmanned aerial vehicle capable of completing a mission-based challenge involving payload delivery and autonomous flight.
 
 ## Contents
-- `docs/` – Competition reports and presentations  
+- `docs/` – Competition reports 
 - `cad/` – STL and CAD source files  
-- `electronics/` – Wiring diagrams and component lists  
-- `software/` – Flight control and ground station code  
 - `media/` – Photos and videos from testing and competition  
 
 ## Tools Used
