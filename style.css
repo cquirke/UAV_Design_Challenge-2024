@@ -11,10 +11,21 @@ nav {
   background: #0b0d12;
   border-bottom: 1px solid #1f2937;
   padding: 0.75rem 1.5rem;
-
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  position: relative;
+  display: flex;
   align-items: center;
+}
+
+.nav-left {
+  z-index: 2;
+}
+
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 2rem;
 }
 
 .nav-left a {
