@@ -16,16 +16,9 @@ nav {
   align-items: center;
 }
 
+/* LEFT LINK */
 .nav-left {
   z-index: 2;
-}
-
-.nav-center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 2rem;
 }
 
 .nav-left a {
@@ -41,7 +34,11 @@ nav {
   color: #e5e7eb;
 }
 
+/* CENTER TABS (TRUE CENTERED) */
 .nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: 2rem;
 }
@@ -63,6 +60,7 @@ nav {
   color: #3b82f6;
 }
 
+/* PAGE HEADER */
 header {
   padding: 4rem 1rem 2rem;
   text-align: center;
@@ -79,6 +77,7 @@ header p {
   color: #b0b0b0;
 }
 
+/* CONTENT */
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -109,6 +108,7 @@ header p {
   gap: 1.5rem;
 }
 
+/* BUTTONS */
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -124,6 +124,7 @@ header p {
   background: #2563eb;
 }
 
+/* FOOTER */
 footer {
   text-align: center;
   padding: 2rem 1rem;
