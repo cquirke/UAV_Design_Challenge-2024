@@ -6,12 +6,10 @@ body {
   line-height: 1.6;
 }
 
-/* NAV BAR */
 nav {
   background: #0b0d12;
   border-bottom: 1px solid #1f2937;
   padding: 0.75rem 1.5rem;
-  position: relative;
   display: flex;
   align-items: center;
 }
@@ -34,13 +32,15 @@ nav {
   color: #e5e7eb;
 }
 
-/* CENTER TABS (TRUE CENTERED) */
+/* TRUE SCREEN-CENTERED TABS */
 .nav-center {
-  position: absolute;
-  left: 50%;
+  position: fixed;
+  top: 0.75rem;
+  left: 50vw;
   transform: translateX(-50%);
   display: flex;
   gap: 2rem;
+  z-index: 1;
 }
 
 .nav-center a {
