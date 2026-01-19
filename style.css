@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
 }
 
-nav {
+.uav-nav {
   position: fixed;
   width: 100%;
   top: 0;
@@ -20,30 +20,30 @@ nav {
 }
 
 /* All nav links */
-nav a {
+.uav-nav a {
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
-nav a:hover {
+.uav-nav a:hover {
   color: #60a5fa;
 }
 
 /* Left “Main Portfolio” link */
-.nav-left {
+.uav-nav .nav-left {
   position: absolute;
   left: 20px;
 }
 
 /* Center project tabs */
-.nav-center {
+.uavnav .nav-center {
   display: flex;
   gap: 30px;
 }
 
-.nav-center a.active {
+.uav-nav .nav-center a.active {
   color: #60a5fa;
   border-bottom: 2px solid #60a5fa;
   padding-bottom: 4px;
