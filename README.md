@@ -19,6 +19,9 @@ The project focused on designing and building an unmanned aerial vehicle capable
 ---
 
 **Author:** Collin Quirke  
+
 **Institution:** Sherando High School 
+
 **Team:** TSA Student Competition Team
+
 **Time Frame** September 2023 - June 2024
