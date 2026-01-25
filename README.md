@@ -6,7 +6,7 @@ This repository contains the design, documentation, and CAD files for my senior-
 The project focused on designing and building an unmanned aerial vehicle capable of completing a mission-based challenge involving payload delivery and autonomous flight.
 
 ## Contents
-- `docs/` – Competition reports 
+- `documents/` – Competition reports 
 - `cad/` – STL and CAD source files  
 - `media/` – Photos and videos from testing and competition  
 
@@ -16,6 +16,9 @@ The project focused on designing and building an unmanned aerial vehicle capable
 - Mission Planner  
 - 3D Printing  
 
-## Author
-Collin Quirke  
-Senior Year Engineering Project (High School)
+---
+
+**Author:** Collin Quirke  
+**Institution:** Sherando High School 
+**Team:** TSA Student Competition Team
+**Time Frame** September 2023 - June 2024
